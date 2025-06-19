@@ -1,0 +1,132 @@
+body {
+  background-image: url('Blanc 2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+header{
+  background-color: #fff; /* Fond blanc */
+  border: 2px solid #333; /* Bordure noire haute définition */
+  border-radius: 26px; /* Coins arrondis */
+  padding: 2px; /* Espacement entre le logo et la bordure */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre pour donner un effet de profondeur */
+  text-align: center
+}
+
+
+h1 {
+  color:#1A1D23
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border: honeydew
+}
+
+
+  
+  
+#inscription {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inscription h2 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#inscription label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#inscription input[type="text"], #inscription input[type="email"], #inscription input[type="password"] {
+  width: 90%;
+  height: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#inscription input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#inscription label[for="abonnement"] {
+  font-weight: normal;
+}
+
+#total {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
+
+#valider-commande {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#valider-commande:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.produit {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produit img {
+  border: 1px solid #ddd;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.ajouter-au-panier {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.ajouter-au-panier:hover {
+  background-color: #3e8e41;
+}
+
+.produit u {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+
+
+
+
+  
+
+
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Market.com</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .produit {
+      display: inline-block;
+      margin: 20px;
+    }
+    .panier {
+      margin-top: 50px;
+    }
+  </style>
+ 
+  <link rel="stylesheet" type="text/css" href="CSS3.css">
+</head>
+<body>
+  <header>
+    <img src="Logo.jpg" width="200" height="100" alt="Logo">
+      </header>
+  <hr>
+  <i><h1>Sarisland shop</h1></i>
+  <hr>
+  <p>Découvrez nos parfums, une fragrance luxueuse et envoûtante qui vous transporte dans un monde de sophistication et de charme. Commandez maintenant et laissez-vous séduire par son parfum unique et irrésistible !</p>
+  <h2>Nos créations olfactives les plus populaires :</h2>
+  <div class="produits">
+    <div class="produit">
+      <img src="Dolce Gabbana.jpg" width="300" height="300" alt="Dolce Gabbana">
+      <button class="ajouter-au-panier">Ajouter au panier</button>
+      <u><b>Prix:</b></u> 32€
+    </div>
+    <div class="produit">
+      <img src="Afnan.jpg" width="300" height="300" alt="Afnan">
+      <button class="ajouter-au-panier">Ajouter au panier</button>
+      <u><b>Prix:</b></u> 46€
+    </div>
+    <div class="produit">
+      <img src="bleu channel.jpg" width="300" height="300" alt="Bleu Channel">
+      <button class="ajouter-au-panier">Ajouter au panier</button>
+      <u><b>Prix:</b></u> 42€
+    </div>
+    <div class="produit">
+      <img src="Mousuf.jpg" width="300" height="300" alt="Mousuf">
+      <button class="ajouter-au-panier">Ajouter au panier</button>
+      <u><b>Prix:</b></u> 25€
+    </div>
+  </div>
+  <div class="panier"> <hr>
+    <h2>Panier d'achat</h2>
+    <ul id="liste-produits">
+      <!-- Liste des produits ajoutés au panier -->
+    </ul>
+    <u><b><p>Total :</b></u> <span id="total"></span> €</p>
+    <button id="valider-commande">Valider la commande</button>
+  </div> <br><br>
+  <hr>
+  <form id="inscription">
+    <h2>Inscription</h2>
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom"><br><br>
+    <label for="email">Adresse e-mail :</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="mot-de-passe">Mot de passe :</label>
+    <input type="password" id="mot-de-passe" name="mot de passe"> <br><br>
+<!-- Case à cocher pour s'abonner à la newsletter -->
+<input type="checkbox" id="abonnement" name="abonnuement"> 
+<label for="abonnement">S'abonner à notre <b>Sarisland parfum</b></label>
+    
+     <script src="BK.js"></script>
+    </body>
+
